@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            grid-area: one;
+        }
+        .two{
+            grid-area: two;
+        }
+        .three{
+            grid-area: three;
+        }
+        .four{
+           grid-area: four; 
+        }
+        .five{
+            grid-area: five;
+        }
+        .six{
+            grid-area: six;
+        }
+        main{
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-areas: 
+            "one one one one"
+            "two three three four"
+            "two three three five"
+            "six six six six"
+            ;
+
+        }
+        main > div{
+            background-color: bisque;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            border-radius: 20px;
+        }
+        img{
+            width: 100%;
+            height:
+            100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="one">
+            <h1>one</h1>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aut ad fuga velit saepe magni voluptatibus. Omnis similique velit minus, atque tempore necessitatibus dicta distinctio voluptatem a accusantium. Quod veniam molestias perferendis delectus culpa quas deserunt ipsum voluptates quos ratione doloremque aut maxime adipisci vero minus reiciendis autem tempora optio, fugit ullam aperiam harum, illum fugiat cupiditate! Mollitia, voluptate. Porro est maxime asperiores temporibus excepturi maiores explicabo voluptatibus eos fugiat odit perspiciatis doloribus possimus omnis sapiente in voluptatem, repellendus eveniet repudiandae, voluptatum ex placeat! Esse, totam, numquam voluptatem assumenda vero alias dolor adipisci, consectetur nostrum aut expedita in laboriosam dignissimos!
+        </div>
+    <div class="two">
+        <h1>two</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum unde labore commodi, mollitia assumenda iure, eaque exercitationem nesciunt eius sunt omnis molestiae esse dolorem magni dolor atque dolores rerum quaerat inventore impedit numquam iste. Quidem, repudiandae architecto iure alias ipsam dignissimos dicta 
+        <ul>
+            <li>rerere</li>
+            <li>rerere</li>
+            <li>rerere</li>
+        </ul>
+    </div>
+    <div class="three">
+        <h1>three</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, laudantium.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quibusdam doloremque totam necessitatibus ducimus a voluptates, neque pariatur minus, consectetur fuga voluptas quisquam nam quaerat facilis temporibus molestiae veritatis fugit voluptatem ex unde? Neque corporis, quia nemo, illum odio culpa at atque harum fugit eos ipsa quisquam suscipit recusandae voluptate rerum numquam nisi obcaecati illo, maiores voluptates dolorem assumenda. Voluptatum unde optio reprehenderit, quibusdam non placeat omnis incidunt velit vero sint nisi rem nam minima iusto, illo repellat dolorum ducimus. Sint praesentium est iure fuga natus veniam magni asperiores consequatur nostrum modi voluptatem, ut incidunt. Ipsa et recusandae deleniti asperiores!
+    </div>
+    <div class="four">
+        <h1>four</h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, ipsa nostrum nam cum sed pariatur illo consequuntur asperiores nobis tenetur.</div>
+    <div class="five">
+        <h1>five</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit obcaecati consequuntur praesentium iste recusandae sint molestiae ut architecto laudantium minus!</div>
+    <div class="six">
+        <h1>six</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque illo suscipit, possimus voluptate molestiae beatae, voluptatem cumque libero nemo dolor quia eius adipisci nulla sunt eaque modi fugit fuga corrupti. Officiis placeat reiciendis ratione commodi quisquam hic vel, inventore eos quis, dicta corporis enim voluptatem, quod non ipsam exercitationem!
+    </div>
+    </main>
+    
+</body>
+</html>
